@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 
-require('colors');
 const dotenv = require('dotenv');
 const path = require('path');
 const yargs = require('yargs');

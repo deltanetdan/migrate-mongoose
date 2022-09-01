@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-require('colors')
 const _ = require('lodash');
 const ask = require('inquirer');
 const mkdirp = require('mkdirp');
