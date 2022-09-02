@@ -45,7 +45,6 @@ class Migrator {
     this.migrationPath = path.resolve(migrationsPath);
     this.connection = connection || mongoose.createConnection(dbConnectionUri, { useNewUrlParser: true });
     this.collection = collectionName;
-    this.autosync = autosync;
     this.cli = cli;
     this.migrationModel = MigrationModelFactory(collectionName, this.connection);
   }
